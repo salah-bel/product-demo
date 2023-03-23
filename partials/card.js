@@ -1,6 +1,6 @@
 export const card = function(product) {
     return `
-    <div class="card" style="width: 18rem;">
+    <div class="card mb-5" style="width: 18rem;">
         <img src="${product.thumbnail}" class="card-img-top" height="150">
         <div class="card-body">
             <h5 class="card-title">${product.title}</h5>
